@@ -20,7 +20,7 @@ const data = [
     profit: 100,
   },
   {
-    month: "Feb",
+    month: "Fev",
     loss: 55,
     profit: 85,
   },
@@ -30,27 +30,27 @@ const data = [
     profit: 90,
   },
   {
-    month: "April",
+    month: "Avril",
     loss: 90,
     profit: 70,
   },
   {
-    month: "May",
+    month: "Mai",
     loss: 55,
     profit: 80,
   },
   {
-    month: "Jun",
+    month: "Juin",
     loss: 30,
     profit: 50,
   },
   {
-    month: "Jul",
+    month: "Juil",
     loss: 32,
     profit: 75,
   },
   {
-    month: "Aug",
+    month: "Aout",
     loss: 62,
     profit: 86,
   },
@@ -79,12 +79,12 @@ const AreaBarChart = () => {
   return (
     <div className="bar-chart">
       <div className="bar-chart-info">
-        <h5 className="bar-chart-title">Total Revenue</h5>
+        <h5 className="bar-chart-title">Total Expeditions</h5>
         <div className="chart-info-data">
           <div className="info-data-value">$50.4K</div>
           <div className="info-data-text">
             <FaArrowUpLong />
-            <p>5% than last month.</p>
+            <p>5% ce dernier mois</p>
           </div>
         </div>
       </div>
